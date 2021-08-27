@@ -10,6 +10,10 @@ public class Inheritance {
 		student1.show();
 		student2.show();
 
+		Teacher teacher1 = new Teacher("John Doe", 20, 175, 70, "ABC201", 5000000, 5);
+		
+		teacher1.show();
+		
 	}
 
 }
